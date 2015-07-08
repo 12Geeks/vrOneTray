@@ -2,9 +2,9 @@
 	{  
 		difference(){
 		  difference(){
-		  	cube([78,170,13]);
+		  	cube([77,161,13]);
 		   translate([1,0,0])
-	      	cube([76,170,12]);
+	      	cube([75,161,12]);
 	 	   }
 			translate([12,20,12])
 				cube([55,40,1]);
@@ -14,9 +14,9 @@
 				cube([55,40,1]);
 		}	
 	   difference(){
-	  		cube([78,170,1]);
+	  		cube([77,161,1]);
 			translate([5,0,0])
-	   	  	cube([68,170,12]);
+	   	  	cube([67,161,12]);
 		}		
 	}
 	
@@ -26,12 +26,12 @@
 	   	translate([-100,30*i,0])
 			difference(){
 				difference(){
-						cube([76,20,10]);
+						cube([75,20,10]);
 						translate([1,0,1])
 							cube([20,20,8]);
 			 	}
 				translate([0,10,0])
-					cube([76,20,8]);
+					cube([75,20,8]);
 			}				
 	}
 	
