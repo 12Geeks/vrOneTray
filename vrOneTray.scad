@@ -26,12 +26,12 @@
 	   	translate([-100,30*i,0])
 			difference(){
 				difference(){
-						cube([75,20,10]);
+						cube([73.7,20,10]);
 						translate([1,0,1])
 							cube([20,20,8]);
 			 	}
 				translate([0,10,0])
-					cube([75,20,8]);
+					cube([73.7,20,8]);
 			}				
 	}
 	
